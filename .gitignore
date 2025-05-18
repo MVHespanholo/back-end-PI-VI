@@ -1,0 +1,28 @@
+# Dependências
+/node_modules
+/node_modules/
+
+# Ambiente virtual Python
+/venv
+/venv/
+/.venv
+/.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
