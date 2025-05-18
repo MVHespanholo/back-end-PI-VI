@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 // Conexão com o Supabase (com URL encoding na senha)
-const connectionString = "postgresql://postgres.qswnrjifiqgpaybaqwvr:147852%40fatec2025@aws-0-sa-east-1.pooler.supabase.com:6543/postgres";
+const connectionString = process.env.DATABASE_URL;
 
 const pool = new Pool({
   connectionString,
